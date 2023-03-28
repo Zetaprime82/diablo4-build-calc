@@ -2255,11 +2255,11 @@ $(document).ready(function() {
 	$("#reloadButton").on("click", handleReloadButton);
 	$("#shareButton").on("click", handleShareButton);
 	$("#classSelector").on("change", handleClassSelection);
-	$("#barbarianSelect").on("click", () => $("#classSelector").val("barbarian")(images/d4-classes-icon-barbarian-base.png).change());
-	$("#druidSelect").on("click", () => $("#classSelector").val("druid")(images/d4-classes-icon-druid-base.png).change());
-	$("#necromancerSelect").on("click", () => $("#classSelector").val("necromancer")(images/d4-classes-icon-ecromancer-base.png).change());
-	$("#rogueSelect").on("click", () => $("#classSelector").val("rogue")(images/d4-classes-icon-oguen-base.png).change());
-	$("#sorcererSelect").on("click", () => $("#classSelector").val("sorcerer")(images/d4-classes-icon-sorcerer-base.png).change());
+	$("#barbarianSelect").on("click", () => $("#classSelector").val("barbarian").change());
+	$("#druidSelect").on("click", () => $("#classSelector").val("druid").change());
+	$("#necromancerSelect").on("click", () => $("#classSelector").val("necromancer").change());
+	$("#rogueSelect").on("click", () => $("#classSelector").val("rogue").change());
+	$("#sorcererSelect").on("click", () => $("#classSelector").val("sorcerer").change());
 	$("#groupSelector").on("change", handleGroupSelection);
 	$("#searchInput").on("keyup focus blur", handleSearchInput);
 
