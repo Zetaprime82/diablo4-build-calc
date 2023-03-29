@@ -12,8 +12,5 @@ Parsing the proprietary file formats within is an exercise left to the reader. T
 
 I recommend starting with the ``.stl`` files if you want to see whether or not this is something you're comfortable doing, as they're one of the easiest formats to understand. For comparison, ``.pow`` files are one of the hardest.
 
-## Can I give you money for this?
-You're free to do whatever you want, I do have a [Patreon](https://www.patreon.com/lothrik). I'm not selling you anything though.
-
-## I found a bug or error, should I report it?
-Yes, you should. I don't even particularly care how you do that. I've had people report bugs to me **in-game** of all places.
+## Orginal Project
+[Orginal Project](https://github.com/lothrik/diablo4-build-calc)
